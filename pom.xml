@@ -225,7 +225,7 @@
                     <goal>copy-resources</goal>
                   </goals>
                   <configuration>
-                    <outputDirectory>${project.basedir}/qhode/testreports</outputDirectory>
+                    <outputDirectory>${project.basedir}/qhode/testresults</outputDirectory>
                     <resources>          
                       <resource>
                         <directory>${project.basedir}/target/surefire-reports</directory>
